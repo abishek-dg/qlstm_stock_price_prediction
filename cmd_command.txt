@@ -1,0 +1,6 @@
+py -3.11 -m venv qlstm_env    
+python.exe -m pip install --upgrade pip 
+.\qlstm_env\Scripts\Activate.ps1
+.\qlstm_env\Scripts\activate.bat                                            
+pip install -r C:\Users\LENOVO\Desktop\qlstm\qlstm_model_1\requirements_versions.txt
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118 

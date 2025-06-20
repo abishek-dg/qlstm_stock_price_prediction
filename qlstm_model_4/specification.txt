@@ -1,0 +1,10 @@
+It's the qlstm model with
+
+seq_length = 16
+batch size = 16
+epoch = 100
+qubit = 4
+hidden state = 8
+number of lstm layer = 2
+qnn = Estimatorqnn
+estimator = statevectorestimator
